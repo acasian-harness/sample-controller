@@ -128,7 +128,7 @@
 		},
 		{
 			"ImportPath": "github.com/evanphx/json-patch",
-			"Rev": "e83c0a1c26c8"
+			"Rev": "v4.9.0"
 		},
 		{
 			"ImportPath": "github.com/fsnotify/fsnotify",
@@ -144,7 +144,7 @@
 		},
 		{
 			"ImportPath": "github.com/go-logr/logr",
-			"Rev": "v0.1.0"
+			"Rev": "v0.2.0"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/jsonpointer",
@@ -240,7 +240,7 @@
 		},
 		{
 			"ImportPath": "github.com/json-iterator/go",
-			"Rev": "v1.1.9"
+			"Rev": "v1.1.10"
 		},
 		{
 			"ImportPath": "github.com/jstemmer/go-junit-report",
@@ -331,12 +331,16 @@
 			"Rev": "v1.4.0"
 		},
 		{
+			"ImportPath": "github.com/yuin/goldmark",
+			"Rev": "v1.1.27"
+		},
+		{
 			"ImportPath": "go.opencensus.io",
 			"Rev": "v0.22.2"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto",
-			"Rev": "bac4c82f6975"
+			"Rev": "75b288015ac9"
 		},
 		{
 			"ImportPath": "golang.org/x/exp",
@@ -356,11 +360,11 @@
 		},
 		{
 			"ImportPath": "golang.org/x/mod",
-			"Rev": "v0.1.0"
+			"Rev": "v0.3.0"
 		},
 		{
 			"ImportPath": "golang.org/x/net",
-			"Rev": "d3edc9973b7e"
+			"Rev": "ab3426394381"
 		},
 		{
 			"ImportPath": "golang.org/x/oauth2",
@@ -372,7 +376,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/sys",
-			"Rev": "fde4db37ae7a"
+			"Rev": "ed371f2e16b4"
 		},
 		{
 			"ImportPath": "golang.org/x/text",
@@ -384,7 +388,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/tools",
-			"Rev": "65e3620a7ae7"
+			"Rev": "c1934b75d054"
 		},
 		{
 			"ImportPath": "golang.org/x/xerrors",
@@ -400,15 +404,15 @@
 		},
 		{
 			"ImportPath": "google.golang.org/genproto",
-			"Rev": "f3c370f40bfb"
+			"Rev": "cb27e3aa2013"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc",
-			"Rev": "v1.26.0"
+			"Rev": "v1.27.0"
 		},
 		{
 			"ImportPath": "google.golang.org/protobuf",
-			"Rev": "v1.23.0"
+			"Rev": "v1.24.0"
 		},
 		{
 			"ImportPath": "gopkg.in/check.v1",
@@ -440,19 +444,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "fd326d3007d3"
+			"Rev": "051d027c14e1"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "2d992b89ee69"
+			"Rev": "9254095ca5ca"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "58357f96bf43"
+			"Rev": "20923fd71b14"
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
-			"Rev": "92e2f57872e8"
+			"Rev": "5a311e69ffcf"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -460,23 +464,23 @@
 		},
 		{
 			"ImportPath": "k8s.io/klog/v2",
-			"Rev": "v2.1.0"
+			"Rev": "v2.2.0"
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",
-			"Rev": "656914f816f9"
+			"Rev": "6aeccd4b50c6"
 		},
 		{
 			"ImportPath": "k8s.io/utils",
-			"Rev": "2df71ebbae66"
+			"Rev": "d5654de09c73"
 		},
 		{
 			"ImportPath": "rsc.io/binaryregexp",
 			"Rev": "v0.2.0"
 		},
 		{
-			"ImportPath": "sigs.k8s.io/structured-merge-diff/v3",
-			"Rev": "v3.0.0"
+			"ImportPath": "sigs.k8s.io/structured-merge-diff/v4",
+			"Rev": "v4.0.1"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/yaml",
