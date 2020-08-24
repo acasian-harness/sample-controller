@@ -42,6 +42,7 @@ import (
 	samplescheme "k8s.io/sample-controller/pkg/generated/clientset/versioned/scheme"
 	informers "k8s.io/sample-controller/pkg/generated/informers/externalversions/samplecontroller/v1alpha1"
 	listers "k8s.io/sample-controller/pkg/generated/listers/samplecontroller/v1alpha1"
+        _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 )
 
 const controllerAgentName = "sample-controller"
