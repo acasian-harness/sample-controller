@@ -389,10 +389,17 @@ func (c *Controller) handleObject(obj interface{}) {
 // the appropriate OwnerReferences on the resource so handleObject can discover
 // the Foo resource that 'owns' it.
 func newDeployment(foo *samplev1alpha1.Foo) *appsv1.Deployment {
+
+	labelsFromSpec := foo.Spec.Template.Metadata.Labels
 	labels := map[string]string{
 		"app":        "nginx",
 		"controller": foo.Name,
 	}
+	for k, v := range labelsFromSpec {
+		labels[k] = v
+	}
+
+	klog.Info("Handle new deployment with labels: ", labelsFromSpec)
 	return &appsv1.Deployment{
 		ObjectMeta: metav1.ObjectMeta{
 			Name:      foo.Spec.DeploymentName,

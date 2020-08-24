@@ -34,8 +34,13 @@ type Foo struct {
 
 // FooSpec is the spec for a Foo resource
 type FooSpec struct {
-	DeploymentName string `json:"deploymentName"`
-	Replicas       *int32 `json:"replicas"`
+	DeploymentName string      `json:"deploymentName"`
+	Replicas       *int32      `json:"replicas"`
+	Template       FooTemplate `json:"template"`
+}
+
+type FooTemplate struct {
+	Metadata metav1.ObjectMeta `json:"metadata"`
 }
 
 // FooStatus is the status for a Foo resource
